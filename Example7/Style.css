@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount{
+    color: red;
+}
+form{
+    border: 1px solid #578FCA;
+    width: 25%;
+    height: auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #D1F8EF, #A1E3F9);
+}
+.button{
+    text-align: center;
+}
+.summary{
+    text-align: left;
+}
+button{
+    margin-top: 10px;
+    width: 75px;
+    height: 25px;
+    border: 1px solid #3674B5;
+    color: #3674B5;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+.ok{
+    margin-right: 3px;
+}
+.cancel{
+    margin-left: 3px;
+}
+button:hover{
+    background-color: #3674B5;
+    color: white;
+}
+hr{
+    border: 1px dashed #3674B5 ;
+}
+input{
+    border: 1px solid #578FCA;
+}
+select{
+    border: 1px solid #578FCA;
+    transition: background-color 0.15s, color 0.15s;
+}   
+select:hover{
+    background-color: #3674B5;
+    color: white;
+}
